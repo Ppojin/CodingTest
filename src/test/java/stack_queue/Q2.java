@@ -14,10 +14,6 @@ public class Q2 {
 
         Answer2 answer2 = new Answer2();
         int solutionAnswer = answer2.solution(bridge_length, max_weight, trucks);
-        System.out.println("================================================");
-        System.out.println(correctAnswer);
-        System.out.println(solutionAnswer);
-        System.out.println("================================================");
         Assert.assertEquals(correctAnswer, solutionAnswer);
     }
 
@@ -31,10 +27,6 @@ public class Q2 {
 
         Answer2 answer2 = new Answer2();
         int solutionAnswer = answer2.solution(bridge_length, max_weight, trucks);
-        System.out.println("================================================");
-        System.out.println(correctAnswer);
-        System.out.println(solutionAnswer);
-        System.out.println("================================================");
         Assert.assertEquals(correctAnswer, solutionAnswer);
     }
 
@@ -48,44 +40,6 @@ public class Q2 {
 
         Answer2 answer2 = new Answer2();
         int solutionAnswer = answer2.solution(bridge_length, max_weight, trucks);
-        System.out.println("================================================");
-        System.out.println(correctAnswer);
-        System.out.println(solutionAnswer);
-        System.out.println("================================================");
-        Assert.assertEquals(correctAnswer, solutionAnswer);
-    }
-
-    @Test
-    public void case4(){
-        int bridge_length = 100;
-        int max_weight = 100;
-        int[] trucks = {10,10,10,10,10,10,10,10,10,10,10};
-
-        int correctAnswer = 120;
-
-        Answer2 answer2 = new Answer2();
-        int solutionAnswer = answer2.solution(bridge_length, max_weight, trucks);
-        System.out.println("================================================");
-        System.out.println(correctAnswer);
-        System.out.println(solutionAnswer);
-        System.out.println("================================================");
-        Assert.assertEquals(correctAnswer, solutionAnswer);
-    }
-
-    @Test
-    public void case5(){
-        int bridge_length = 100;
-        int max_weight = 100;
-        int[] trucks = {10,10,10,10,10,10,10,10,10,10,10,10};
-
-        int correctAnswer = 121;
-
-        Answer2 answer2 = new Answer2();
-        int solutionAnswer = answer2.solution(bridge_length, max_weight, trucks);
-        System.out.println("================================================");
-        System.out.println(correctAnswer);
-        System.out.println(solutionAnswer);
-        System.out.println("================================================");
         Assert.assertEquals(correctAnswer, solutionAnswer);
     }
 }

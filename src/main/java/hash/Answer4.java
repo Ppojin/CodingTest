@@ -35,6 +35,7 @@ class PlayNode{
 }
 
 public class Answer4 {
+
     public static int[] solution(String[] genres, int[] plays) {
         HashMap<String, PlayNode> hm = new HashMap<>();
         for(int i = 0; i < genres.length ; i++){

@@ -4,40 +4,39 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-class V{
-    private String[] participant;
-    private String[] completion;
-    private String result;
-
-    public V(String[] participant, String[] completion, String result) {
-        this.participant = participant;
-        this.completion = completion;
-        this.result = result;
-    }
-
-    public String[] getParticipant() {
-        return participant;
-    }
-
-    public String[] getCompletion() {
-        return completion;
-    }
-
-    public String getResult() {
-        return result;
-    }
-
-    @Override
-    public String toString() {
-        return "V{" +
-                "participant=" + Arrays.toString(participant) +
-                ", completion=" + Arrays.toString(completion) +
-                ", result='" + result + '\'' +
-                '}';
-    }
-}
-
 public class Q1 {
+    class V{
+        private String[] participant;
+        private String[] completion;
+        private String result;
+
+        public V(String[] participant, String[] completion, String result) {
+            this.participant = participant;
+            this.completion = completion;
+            this.result = result;
+        }
+
+        public String[] getParticipant() {
+            return participant;
+        }
+
+        public String[] getCompletion() {
+            return completion;
+        }
+
+        public String getResult() {
+            return result;
+        }
+
+        @Override
+        public String toString() {
+            return "V{" +
+                    "participant=" + Arrays.toString(participant) +
+                    ", completion=" + Arrays.toString(completion) +
+                    ", result='" + result + '\'' +
+                    '}';
+        }
+    }
 
     @Test
     public void case1(){
