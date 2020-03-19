@@ -10,7 +10,7 @@ public class Answer1 {
     int heapSize = 0;
     String minHeapToString(){
         StringBuilder result = new StringBuilder();
-        for(int index = 1 ; index < 100 ; index++){
+        for(int index = 1 ; index < heapSize+1 ; index++){
             result.append(String.format("%s, ", minHeap[index]));
         }
         return result.toString();

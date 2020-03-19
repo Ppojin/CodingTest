@@ -6,7 +6,7 @@ public class Answer5 {
         int len = arrangement.length();
         int sCount = 0;
         for(int i = 0 ; i < len ; i++){
-            boolean laser = arrangement.charAt(i) == '(' && arrangement.charAt(i + 1) == ')';
+            boolean laser = (arrangement.charAt(i) == '(' && arrangement.charAt(i + 1) == ')');
             if(laser){
                 result += sCount;
                 i++;
